@@ -1,0 +1,20 @@
+[package]
+name = "euler-solutions"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+project-euler-data = { git = "https://github.com/salameme/project-euler-manager" }
+clap = { version = "4.0.29", features = ["derive"] }
+md-5 = "0.10.5"
+color-eyre = "0.6.2"
+thiserror = "1.0.37"
+eager = "0.1.0"
+
+[build-dependencies]
+project-euler-data = { git = "https://github.com/salameme/project-euler-manager" }
+color-eyre = "0.6.2"
+hex = "0.4.3"
+nom = "7.1.1"
